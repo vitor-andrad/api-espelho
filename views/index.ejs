@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:5000" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+        
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+        
+        <label for="phone">Celular</label>
+        <input type="phone" name="phone" id="phone">
+
+        <input type="text" name="redirect" id="redirect" value="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">
+        
+            <button>Liberar Internet</button>
+</form>
+</body>
+</html>
